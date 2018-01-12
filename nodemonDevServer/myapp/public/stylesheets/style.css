@@ -1,0 +1,14 @@
+/*.logo {
+  background-image: url(../images/placeholder/dummy-300x200-Balconies.jpg);
+  background-size: cover;
+}*/
+
+.project-cover {
+  height: 100px;
+  background-image: url(../images/placeholder/dummy-300x200-Balconies.jpg);
+  /*non si puo inserire l alternative text!*/
+  background-size: cover;
+}
+.test {
+  background-color: green;
+}
