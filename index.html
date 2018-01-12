@@ -8,30 +8,25 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../stylesheets/style.css">
 
   <title>My Portfolio</title>
 </head>
 
 <body>
   <div class="container">
-
-  </div>
-  <header class="header">
-    <div class="row">
-      <div class="logo">
-        <img src="http://via.placeholder.com/80x80" alt="Logo">
-        <!-- <img src="assets/logo.jpg" alt="Logo"> -->
+    <header class="row  header">
+      <div class="col-4 logo">
+        <img class=".img-fluid"src="http://via.placeholder.com/200x200" alt="Logo">
       </div>
-      <div class="title">
+      <div class="col float-right title">
         <h1>Jane Doette</h1>
         <h2> Front-end Ninja</h2>
       </div>
-    </div>
-  </header>
-  <main>
-    <div class="content>" <!-- It contains an article -->
-      <article class="beNice">
+
+    </header>
+    <main>
+      <article class="row beNice">
         <h2>Article heading</h2>
 
         <p class="beNice">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis
@@ -53,42 +48,78 @@
       </article>
 
 
-  </main>
+    </main>
 
-  <!-- And here is our main footer that is used across all the pages of our website -->
+    <!-- And here is our main footer that is used across all the pages of our website -->
 
-  <footer>
-    <h2>Featured</h2>
-    <div class="works">
-      <section class="project">
-        <div class="projectCover"></div>
-        <p class="projectTitle">project number one</p>
-        <a href="https://www.mozilla.com/">
+    <footer>
+      <h2>Featured
+    </h2>
+      <div class="row works">
+
+
+
+        <section class="col">
+          <div class="project-cover">
+
+          </div>
+          <p class="projectTitle">project number one</p>
+          <a href="https://www.mozilla.com/">External Link</a>
+        </section>
+
+
+
+
+        <section class="col project">
+          <div class="projectCover"></div>
+          <p class="projectTitle">project number one</p>
+          <a href="https://www.mozilla.com/">
             External Link
             </a>
-      </section>
-      <section class="project">
-        <div class="projectCover"></div>
-        <p class="projectTitle">project number one</p>
-        <a href="https://www.mozilla.com/">
+        </section>
+        <section class="col project">
+          <div class="projectCover"></div>
+          <p class="projectTitle">project number one</p>
+          <a href="https://www.mozilla.com/">
             External Link
             </a></section>
-      <section class="project">
-        <div class="projectCover"></div>
-        <p class="projectTitle">project number one</p>
-        <a href="https://www.mozilla.com/">
+        <section class="col project">
+          <div class="projectCover"></div>
+          <p class="projectTitle">project number one</p>
+          <a href="https://www.mozilla.com/">
             External Link
             </a></section>
 
-    </div>
-    <p>©Copyright 2017 by JohnDoe. All rights reversed.</p>
-  </footer>
+      </div>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+
+      <!-- test area -->
+      <div class="test">
+        <div class="row">
+          <div class="col-sm-8">col-sm-8</div>
+          <div class="col-sm-4">col-sm-4</div>
+        </div>
+        <div class="row">
+          <div class="col-sm">col-sm</div>
+          <div class="col-sm">col-sm</div>
+          <div class="col-sm">col-sm</div>
+        </div>
+      </div>
+
+      <p>©Copyright 2017 by JohnDoe. All rights reversed.</p>
+    </footer>
+
+
   </div>
 </body>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+<!-- watching for change -->
+<script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='http://HOST:3001/browser-sync/browser-sync-client.js?v=2.23.5'><\/script>".replace("HOST", location.hostname));
+//]]></script>
 </html>
