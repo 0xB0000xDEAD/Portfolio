@@ -16,20 +16,20 @@
 <body>
   <div class="container">
     <header class="row  header">
+      <!-- TODO: stiling the header -->
       <div class="col-4 logo">
-        <img class="img-fluid"src="http://via.placeholder.com/200x200" alt="Logo">
+        <img class="img-fluid" src="http://via.placeholder.com/200x200" alt="Logo">
       </div>
       <div class="col float-right title">
         <h1>Jane Doette</h1>
         <h2> Front-end Ninja</h2>
       </div>
-
     </header>
     <main>
       <article class="row beNice">
         <h2>Article heading</h2>
 
-        <p class="beNice">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis
           sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
 
         <h3>subsection</h3>
@@ -53,15 +53,12 @@
     <!-- And here is our main footer that is used across all the pages of our website -->
 
     <footer>
-      <h2>Featured
-    </h2>
+      <h2>
+        Featured
+      </h2>
       <div class="row works">
-
-
-
         <section class="col">
           <div class="project-cover">
-
           </div>
           <p class="projectTitle">project number one</p>
           <a href="https://www.mozilla.com/">External Link</a>
@@ -71,7 +68,9 @@
 
 
         <section class="col project">
-          <div class="projectCover"></div>
+          <div class="cover">
+            <img src="cover1.jpg" alt="Cover 1">
+          </div>
           <p class="projectTitle">project number one</p>
           <a href="https://www.mozilla.com/">
             External Link
@@ -107,6 +106,29 @@
         </div>
       </div>
 
+      <!-- test area2 -->
+      <div class="test2">
+        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+        <div class="row">
+          <div class="col-12 col-md-8">.col-12 .col-md-8</div>
+          <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+        </div>
+
+        <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+        <div class="row">
+          <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+          <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+          <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+        </div>
+
+        <!-- Columns are always 50% wide, on mobile and desktop -->
+        <div class="row">
+          <div class="col-6">.col-6</div>
+          <div class="col-6">.col-6</div>
+        </div>
+      </div>
+
+
       <p>©Copyright 2017 by JohnDoe. All rights reversed.</p>
     </footer>
 
@@ -119,7 +141,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
 <!-- watching for change -->
-<script id="__bs_script__">//<![CDATA[
-    document.write("<script async src='http://HOST:3001/browser-sync/browser-sync-client.js?v=2.23.5'><\/script>".replace("HOST", location.hostname));
-//]]></script>
+<script id="__bs_script__">
+  //<![CDATA[
+  document.write("<script async src='http://HOST:3001/browser-sync/browser-sync-client.js?v=2.23.5'><\/script>".replace("HOST", location.hostname));
+  //]]>
+</script>
+
 </html>
