@@ -1,24 +1,101 @@
-/*.logo {
-  background-image: url(../images/placeholder/dummy-300x200-Balconies.jpg);
-  background-size: cover;
-}*/
+/***   fix   ***/
 
-/*.logo {
-  overflow: hidden;
-}*/
+img {
+  max-width: 100%;
+}
 
-.project-cover {
-  height: 100px;
-  background-image: url(../images/placeholder/dummy-300x200-Balconies.jpg);
-  /*non si puo inserire l alternative text!*/
-  background-size: cover;
+/***   structure ***/
+
+.header {
+  height: 180px;
 }
-.test {
-  background-color: green;
+
+.logo-container {
+  position: relative;
+  margin: auto;
 }
-.test2 {
-  background-color: blue;
+
+.logo {
+  width: 100px;
+  /*border: 1px solid;*/
+  box-shadow: 5px 5px #14a, 10px 10px #fb2, 15px 15px #f11, 20px 20px #5d4;
 }
+
+.title {
+  text-align: right;
+  position: relative;
+  margin: auto;
+}
+
+.main {
+  font-weight: bolder;
+}
+
+.article {
+  margin: 20px 0;
+  /*top-bottom and left-right*/
+}
+
+.big-Pic {
+  height: 100%;
+}
+
+.footer {
+  margin: 0;
+}
+
 .cover {
-  /*PLACEHOLDER*/
+  margin: 10px 0;
+  /*border: 1px solid red;*/
 }
+
+.info {
+  text-align: center;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+.copyright {
+  margin-top: 20px;
+  width: 100vw;
+  text-align: center;
+}
+
+.thin-line {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border: 0;
+  height: 3px;
+  background-color: #2d3c49;
+}
+
+/***    typography   ***/
+
+* {
+  color: #2d3c49;
+}
+
+.custom1 {
+  color: #79a;
+  /*color: #7d97ad;*/
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: purple;
+}
+
+a:active {
+  color: red;
+}
+
+/***    debug   ***/
+
+/** { border: 1px solid blue; }*/

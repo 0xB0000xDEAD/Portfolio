@@ -15,136 +15,90 @@
 
 <body>
   <div class="container">
+
     <header class="row  header">
-      <!-- TODO: stiling the header -->
-      <div class="col-4 logo">
-        <img class="img-fluid" src="http://via.placeholder.com/200x200" alt="Logo">
+      <!-- TODO: styling the header -->
+      <div class="col-4 logo-container">
+        <img class="logo" src="images/placeholder/dummy-400x400-Windflower-plain.jpg" alt="Logo">
       </div>
-      <div class="col float-right title">
-        <h1>Jane Doette</h1>
-        <h2> Front-end Ninja</h2>
+      <!-- <div class="col float-right title"> -->
+      <div class="col-8 title">
+        <h1>Janette Doette</h1>
+        <h4>Front-end Ninja</h4>
       </div>
     </header>
-    <main>
-      <article class="row beNice">
-        <h2>Article heading</h2>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis
-          sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
+    <div class="row thin-line">
+      <div class="col">
+      </div>
+    </div>
 
-        <h3>subsection</h3>
-
-        <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
-
-        <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.</p>
-
-        <h3>Another subsection</h3>
-
-        <p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
-
-        <p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio. Maecenas convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, is fringille sem nunc vet
-          mi.
+    <main class="row main">
+      <div class="col">
+        <p>
+          Superpowered websites are our mission.
         </p>
-      </article>
-
-
+      </div>
+      <div class="row article">
+        <div class="col">
+          <img class="img-fluid big-Pic" src="images/placeholder/bigPic.jpg" alt="center image" width="1100">
+        </div>
+      </div>
     </main>
 
-    <!-- And here is our main footer that is used across all the pages of our website -->
+    <footer class="row footer">
 
-    <footer>
-      <h2>
-        Featured
-      </h2>
-      <div class="row works">
-        <section class="col">
-          <div class="project-cover">
-          </div>
-          <p class="projectTitle">project number one</p>
-          <a href="https://www.mozilla.com/">External Link</a>
-        </section>
-
-
-
-
-        <section class="col project">
+      <div class="col">
+        <h3 class="custom1">
+          Featured Work
+        </h3>
+      </div>
+      <div class="row">
+        <div class="col-sm">
           <div class="cover">
-            <img src="cover1.jpg" alt="Cover 1">
+            <img class="img-fluid" src="images/placeholder/dummy-400x400-Boxing-plain.jpg" alt="">
           </div>
-          <p class="projectTitle">project number one</p>
-          <a href="https://www.mozilla.com/">
-            External Link
-            </a>
-        </section>
-        <section class="col project">
-          <div class="projectCover"></div>
-          <p class="projectTitle">project number one</p>
-          <a href="https://www.mozilla.com/">
-            External Link
-            </a></section>
-        <section class="col project">
-          <div class="projectCover"></div>
-          <p class="projectTitle">project number one</p>
-          <a href="https://www.mozilla.com/">
-            External Link
-            </a></section>
-
-      </div>
-
-
-
-      <!-- test area -->
-      <div class="test">
-        <div class="row">
-          <div class="col-sm-8">col-sm-8</div>
-          <div class="col-sm-4">col-sm-4</div>
+          <div class="info">
+            <h2 class="projectTitle">Mixtape</h2>
+            <a href="https://en.wikipedia.org/wiki/George_VI">Go to the Project Page</a>
+          </div>
         </div>
-        <div class="row">
-          <div class="col-sm">col-sm</div>
-          <div class="col-sm">col-sm</div>
-          <div class="col-sm">col-sm</div>
+        <div class="col-sm">
+          <div class="cover">
+            <img class="img-fluid" src="images/placeholder/dummy-400x400-SewingMachine-plain.jpg" alt="">
+          </div>
+          <div class="info">
+            <h2 class="projectTitle">Mixtape</h2>
+            <a href="https://en.wikipedia.org/wiki/George_VI">Go to the Project Page</a>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="cover">
+            <img class="img-fluid" src="images/placeholder/dummy-400x400-ToyTruck-plain.jpg" alt="">
+          </div>
+          <div class="info">
+            <h2 class="projectTitle">Mixtape</h2>
+            <a href="https://en.wikipedia.org/wiki/George_VI">Go to the Project Page</a>
+          </div>
         </div>
       </div>
-
-      <!-- test area2 -->
-      <div class="test2">
-        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
-        <div class="row">
-          <div class="col-12 col-md-8">.col-12 .col-md-8</div>
-          <div class="col-6 col-md-4">.col-6 .col-md-4</div>
-        </div>
-
-        <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
-        <div class="row">
-          <div class="col-6 col-md-4">.col-6 .col-md-4</div>
-          <div class="col-6 col-md-4">.col-6 .col-md-4</div>
-          <div class="col-6 col-md-4">.col-6 .col-md-4</div>
-        </div>
-
-        <!-- Columns are always 50% wide, on mobile and desktop -->
-        <div class="row">
-          <div class="col-6">.col-6</div>
-          <div class="col-6">.col-6</div>
+      <div class="row">
+        <div class="col">
+          <div class="copyright">
+            <h6>©Copyright 2018 by Sergio. All rights reversed.</h4>
+          </div>
         </div>
       </div>
-
-
-      <p>©Copyright 2017 by JohnDoe. All rights reversed.</p>
     </footer>
 
-
   </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
 </body>
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-<!-- watching for change -->
-<script id="__bs_script__">
-  //<![CDATA[
-  document.write("<script async src='http://HOST:3001/browser-sync/browser-sync-client.js?v=2.23.5'><\/script>".replace("HOST", location.hostname));
-  //]]>
-</script>
 
 </html>
