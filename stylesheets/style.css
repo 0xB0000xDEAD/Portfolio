@@ -36,10 +36,6 @@ img {
   /*top-bottom and left-right*/
 }
 
-.big-Pic {
-  height: 100%;
-}
-
 .footer {
   margin: 0;
 }
@@ -56,8 +52,8 @@ img {
 }
 
 .copyright {
+  width: 100%;
   margin-top: 20px;
-  width: 100vw;
   text-align: center;
 }
 
